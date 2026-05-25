@@ -95,33 +95,31 @@ streamlit run app.py
 
 ## Live Dashboard
 
-PASTE_YOUR_STREAMLIT_LINK_HERE
+https://frauddetectionsystem1930.streamlit.app/
 
 ---
 
 ## Project Structure
 
-FraudDetection_Sumedh/
+FraudDetectionSystem/
 
-├── analysis.ipynb
+├── analysis.ipynb  
+├── README.md  
+├── requirements.txt  
+├── summary.docx 
 
-├── dashboard/
 
-│   ├── app.py
+├── charts/  
+│   ├── shap_summary.png  
+│   ├── fraud_rate_hour.png  
+│   ├── transaction_distribution.png  
+│   ├── risk_tier_donut.png  
+│   └── pr_curve.png  
 
-│   ├── model.pkl
+├── dashboard/  
+│   ├── app.py  
+│   └── sample_transactions.csv  
 
-│   └── scaler.pkl
-
-├── charts/
-
-├── data/
-
-├── README.md
-
-├── requirements.txt
-
-└── summary.docx
 
 ---
 
