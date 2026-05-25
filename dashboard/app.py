@@ -16,10 +16,9 @@ st.set_page_config(
 # =========================
 # LOAD DATA
 # =========================
-
 @st.cache_data
 def load_data():
-    df = pd.read_csv("../data/train_transaction.csv")
+    df = pd.read_csv("sample_transactions.csv")
     return df
 
 df = load_data()
@@ -103,7 +102,7 @@ if page == "Overview":
     st.subheader("Fraud Distribution")
 
     fraud_chart = px.histogram(
-        df.sample(10000),
+        df.sample(5000),
         x="TransactionAmt",
         color="isFraud",
         nbins=50,
