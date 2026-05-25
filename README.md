@@ -67,6 +67,16 @@ Dataset Files Used:
 - train_transaction.csv
 - train_identity.csv
 
+## Dataset Note
+
+The complete IEEE-CIS Fraud Detection dataset was used locally during model training and experimentation.
+
+Due to GitHub and Streamlit Cloud file size limitations, the full dataset was not uploaded to the repository.
+
+A smaller sampled dataset (`sample_transactions.csv`) is used only for dashboard deployment and demonstration purposes.
+
+Original Dataset:
+https://www.kaggle.com/c/ieee-fraud-detection/data
 ---
 
 ## Run Locally
